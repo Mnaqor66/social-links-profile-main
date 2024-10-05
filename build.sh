@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Starting Building the project"
 sleep 2
-npx tailwindcss -i ./tailwind.css -o ./css/style.css
+npx tailwindcss -i ./src/input.css -o ./css/style.css
 sleep 2
 echo "Finished Building CSS"
 
